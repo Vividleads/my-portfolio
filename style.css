@@ -1,0 +1,266 @@
+.{
+    padding:0;
+    margin:0;
+}
+span{
+    color:blue;
+}
+nav{
+  display:flex;
+  align-items:center;
+  margin-right: 20%;
+  height:10%; 
+}
+nav h2{
+    margin-right:45%;
+    padding-left:5px;
+    cursor:pointer;
+}
+
+nav ul li{
+     display:inline-block;
+     justify-content:space-between;
+     list-style:none;
+     margin-right: 20px;
+     align-items: center;
+
+}
+nav ul a{
+    text-decoration:none;
+    color:black;
+    transition: all 0.5s ease;
+    cursor:pointer;
+    display: grid;
+}
+nav ul a:hover{
+      color:blue;
+      transform:translateY(-10px);
+}
+.btn{
+    color:white;
+    background-color:blue;
+    border-radius:20px;
+    border:none;
+    padding:10px;
+    transition: 0.4s;
+    cursor:Pointer;
+}
+.btn:hover{
+    transform:scaleX(1.2);
+    color:blue;
+    background-color: lightseagreen;
+}
+.btn:active{
+    color:white;
+    background-color: black;
+}
+.home{
+     
+    background-color:rgb(57, 175, 175);
+    color:white;
+    display:flex;
+    align-items:center;
+    flex-flow:row wrap;
+    padding-left: 100px;
+    padding: 50px;
+    background-position:center ;
+    background-size:cover;
+    width:100%;
+}
+.hometext{
+    margin-right:50px;
+    display:inline-block;
+    margin-left:40px;
+
+}
+.hometext h1{
+    font-size:75px;
+    font-weight:bold;
+    
+}
+.hometext h3{
+    margin-top:70px;
+    padding-bottom:-20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hometext p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#email{
+    padding:15px;
+    border-radius:25px;
+    border:none;
+    width:300px;
+    color:black;
+}
+#btn{
+    padding:15px;
+    border-radius:25px;
+    border:None;
+    margin-left:0px;
+    color:white;
+    background-color: blue;
+
+}
+.firstimage{
+    width:350px;
+    height:500px;
+    margin:20px 30px 20px 100px;
+    border-radius:30px;
+}
+.aboutme{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+.abouttext{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.abouttext h1{
+    font-size:50px;
+}
+.abouttext h3{
+    font-size:30px;
+}
+#secondimage{
+    height:100vh;
+    width:500px;
+}
+.chat{
+    color:white;
+    background-color:rgb(57, 175, 175);
+    padding:10px;
+    border-radius:20px;
+    text-align:center;
+    width:150px;
+    margin-top:10px;
+}
+.chat a{
+    text-decoration:none;
+
+}
+.our-services h1{
+    text-align:center;
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color:
+    height:100vh;
+    width:100%;
+    padding-bottom:100px;
+
+}
+.services a{
+    color:black;
+    background-color: aquamarine;
+    text-decoration: none;
+    border:none;
+    padding:10px;
+    border-radius:20px;
+}
+.card1{
+    text-align:center;
+    background-color:lightskyblue;
+    color:black;
+    border: 2px solid transparent;
+    padding:10px;
+    border-radius:20px;
+    margin-right:15px;
+    box-shadow: 1px 2px 2px 2px grey;
+    font-size:20px;
+    margin-left:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition:all 0.5s ease;
+}
+.card1:hover{
+    transform:translateY(-10px)
+}
+.card2{
+    text-align:center;
+    background-color:lightskyblue;
+    color:black;
+    border: 2px solid transparent;
+    padding:10px;
+    border-radius:20px;
+    margin-right:15px;
+    box-shadow: 1px 2px 2px 2px grey;
+    font-size:20px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition:all 0.5s ease;
+}
+.card2:hover{
+    transform:translateY(-10px);
+}
+.card3{
+    text-align:center;
+    background-color:lightskyblue;
+    color:black;
+    border: 2px solid transparent;
+    padding:10px;
+    border-radius:20px;
+    margin-right:15px;
+    box-shadow: 1px 2px 2px 2px grey;
+    font-size:20px;
+    margin-left:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition:all 0.5s ease;
+}
+.card3:hover{
+    transform:translateY(-10px);
+}
+.more{
+    padding:15px;
+    border-radius:25px;
+    border:None;
+    margin-left:45%;
+    margin-bottom:40px;
+    color:white;
+    background-color: blue;
+    text-align:center;
+
+}
+.contact{
+     display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color: rgba(0, 0, 0, 0.747);
+    color:white;
+    padding-top:20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top:50px;
+    background-position:center ;
+    background-size: cover;
+    width:100%;
+    flex-direction: column;
+    
+}
+.contact h3{
+    text-align:left;
+    font-size:25px;
+}
+.contact div{
+    display:inline-block;
+
+}
+.contact ul{
+    list-style:none;
+}
+.contaqct ul a{
+    text-decoration:none;
+    color:white;
+}
+.whatsapp{
+    color:white;
+    background-color:rgba(0, 128, 0, 0.767);
+    border-radius:20px;
+    padding:15px;
+    margin-top:30px;
+}
